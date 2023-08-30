@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="game-box">
+      <!-- USER ------------------------------------------------------------------------------------->
+      <div class="user-choose">
+        <h1 id="user-title">USER</h1>
+        <div>
+          <figure>
+            <img id="rock" src="img/rock.jpg" alt="rock" class="img" />
+          </figure>
+          <figure>
+            <img src="img/paper.jpg" alt="paper" class="img" />
+          </figure>
+          <figure>
+            <img src="img/scissors.jpg" alt="scissors" class="img" />
+          </figure>
+        </div>
+        <div class="user-score">user score : <span id="user-score"></span></div>
+      </div>
+      <!-- showResult -->
+      <div class="show-result">Result :</div>
+      <!-- COMPUTER ----------------------------------------------------------------------------------->
+      <div class="computer-choose">
+        <h1 id="cm-title">Computer</h1>
+        <div>
+          <figure id="pic"><img src="img/rock.jpg" alt="" /></figure>
+        </div>
+        <div class="cm-score">
+          <div>
+            <span>cm score : <span id="plus-score"></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="play-alert">
+      <h2>Winner</h2>
+      <div>
+        <span>Play New Game ?</span
+        ><span><i id="new-game" class="bi bi-arrow-clockwise"></i></span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
