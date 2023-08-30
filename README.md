@@ -1,6 +1,6 @@
 # Rock-Paper-scissors
-# Rock-Paper-Scissors
-![rock-paper-scissors](https://github.com/javadashtiani/Rock-Paper-Scissors/assets/134012615/926010bf-3473-49fa-a04a-7938d9754a9f)
+![سنگ 1](https://github.com/javadashtiani/Rock-Paper-scissors/assets/134012615/09671180-9650-4bf1-9ee3-a3dc5f1d9b26
+
 - 🔗 https://javadashtiani.github.io/Rock-Paper-scissors/
 - 💻 Developed by Javad Ashtiani
 - 📆 Created - 2023
